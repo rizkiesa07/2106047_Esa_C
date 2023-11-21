@@ -1,0 +1,64 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.formulir{
+    background-color: cyan;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 600px;
+    width: 500px;
+    border: none;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto; 
+    padding-left: 20px;
+    padding-right: 35px;
+    padding-bottom: 10px;
+}
+
+label, input, select{
+    display: block;
+    margin-bottom: 10px;
+}
+
+input, textarea{
+    width: 100%;
+}
+
+select{
+    width: 104%;
+}
+
+.form-input{
+    padding: 10px;
+    background-color : white;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 12px;
+}
+
+#btn-kirim {
+    transition: .6s;
+    margin-top: 20px;
+    background-color: rgb(23, 207, 23);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 100px;
+}
+
+#btn-kirim:hover{
+    transition: .6s;
+    background-color:  rgb(86, 241, 86);
+    color: white;
+    cursor: pointer;
+}
